@@ -12,10 +12,12 @@ public class ListaEnlazada {
     public void agregarFrente(int valor) {
         // implementar
         Nodo nuevo = new Nodo(valor);
-        nuevo.siguiente = cabeza;
-        cabeza = nuevo;
-        if(cola==null) {
-            cola = cabeza;
+        if (cabeza == null){
+            cabeza = nuevo;
+            cola = nuevo;
+        } else {
+            nuevo.siguiente = cabeza;
+            cabeza = nuevo;
         }
     }
 
@@ -46,17 +48,23 @@ public class ListaEnlazada {
     public void agregarEnIndice(int index, int valor) {
         // implementar
         Nodo nuevo = new Nodo(valor);
-        if(cabeza!=null) {
-            Nodo puntero = cabeza;
-            for(int i = 0;i<index;i++){
-                if(puntero.siguiente==null) { break; }
-                puntero = puntero.siguiente;
-            }
-            nuevo.siguiente = puntero.siguiente;
-            puntero.siguiente = nuevo;
+        if (index < 0){
+            throw new IndexOutOfBoundsException();
         } else {
-            cabeza = nuevo;
-            cola = nuevo;
+            Nodo aux = cabeza;
+            for ( int i = 0 ; i < index-1 ; i++ ){
+                if (aux == null){
+                    throw new IndexOutOfBoundsException();
+                }
+                aux = aux.siguiente;
+            }
+            if (aux.siguiente == null){
+                aux.siguiente = nuevo;
+                cola = nuevo;
+            } else {
+                nuevo.siguiente = aux.siguiente;
+                aux.siguiente = nuevo;
+            }
         }
     }
 
@@ -65,12 +73,13 @@ public class ListaEnlazada {
      *  de la Lista Enlazada
      */
     public void imprimirLista(ListaEnlazada nombreLista){
-        if(nombreLista.cabeza!=null) {
-            Nodo puntero = nombreLista.cabeza;
-            do {
-                System.out.println("[ "+ puntero.valor +" ]");
-                puntero = puntero.siguiente;
-            } while(cabeza.siguiente!=null);
+        if (cabeza != null) {
+            Nodo aux = cabeza;
+            while (aux != null){
+                System.out.print("[ "+aux.valor+" ]");
+                aux = aux.siguiente;
+            }
+            System.out.println("");
         }
     }
 
