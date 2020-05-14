@@ -2,10 +2,15 @@ package program;
 
 public class Animal {
 
-    private String name;
-    private String sound;
+    private final String name;
+    private final String sound;
     private static final String eat = "crac - crac";
 
+    /**
+     * Crea un animal nuevo.
+     * @param name - nombre del animal (especie)
+     * @param sound - sonido que hace (onomatopeya)
+     */
     public Animal(String name, String sound) {
         this.name = name;
         this.sound = sound;
@@ -15,19 +20,19 @@ public class Animal {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
+    /**
+     * Es un getsound pero mejor nombrado segun esta ocación
+     * @return String del sonido producido por el animal como onomatopeya.
+     */
     public String makeSound() {
         return sound;
     }
 
-    public void setSound(String sound) {
-        this.sound = sound;
-    }
-
-    public String eat() {
+    /**
+     * Es un geteat pero mejor nombrado segun esta ocación.
+     * @return String del sonido cuando come el animal como onomatopeya.
+     */
+    public static String eat() {
         return eat;
     }
 }

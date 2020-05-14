@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ED-TAREA-S2-P2" />
         <module name="EDTAREAS2P2" />
+        <module name="ED-TAREA-S2-P2" />
       </profile>
     </annotationProcessing>
   </component>

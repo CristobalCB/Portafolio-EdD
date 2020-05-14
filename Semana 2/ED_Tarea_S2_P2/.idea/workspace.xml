@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4a705b3-441b-4acc-bae0-f0ada6c84ff7" name="Default Changelist" comment="" />
+    <list default="true" id="e4a705b3-441b-4acc-bae0-f0ada6c84ff7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controler/ControlerAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controler/ControlerAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uInterface/ConsoleInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uInterface/ConsoleInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controler/ControlerAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controler/ControlerAnimal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/program/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uInterface/ConsoleInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uInterface/ConsoleInterface.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,10 +37,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1bpJwA8Resa7xmDI7svjIgxgcjr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaApplication6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -75,10 +90,25 @@
       <updated>1589323337691</updated>
       <workItem from="1589323341939" duration="508000" />
       <workItem from="1589478616317" duration="8014000" />
+      <workItem from="1589489203614" duration="2144000" />
+      <workItem from="1589491782460" duration="1511000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
