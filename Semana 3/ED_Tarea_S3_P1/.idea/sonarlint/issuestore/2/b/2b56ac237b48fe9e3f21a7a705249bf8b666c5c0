@@ -1,0 +1,21 @@
+
+Œ
+java:S1319
+"qThe type of the "lista" object should be an interface such as "List" rather than the implementation "LinkedList".(½\8åÀ“ª¢.
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(ù¤çóûÿÿÿÿ8ùøø«¢.
+
+java:S1319"pThe type of the "list" object should be an interface such as "List" rather than the implementation "LinkedList".(şÅ£Ø8åÀ“ª¢.
+\
+java:S1118":Add a private constructor to hide the implicit public one.(ÿ«ç†ıÿÿÿÿ8åÀ“ª¢.
+r	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚é•Ïùÿÿÿÿ8åÀ“ª¢.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÅ£Ø8åÀ“ª¢.
+Q
+java:S3740 "/Provide the parametrized type for this generic.(§·î°øÿÿÿÿ8åÀ“ª¢.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ù¤çóûÿÿÿÿ8ùøø«¢.
+^
+java:S11265"AReplace this if-then-else statement by a single return statement.(ÔÒÈ›8ùóæ¬¢.
+Œ
+java:S1319,"oThe type of the "one" object should be an interface such as "List" rather than the implementation "LinkedList".(ıö‡ä8åÀ“ª¢.
+Œ
+java:S1319,"oThe type of the "two" object should be an interface such as "List" rather than the implementation "LinkedList".(ıö‡ä8åÀ“ª¢.
+r	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÛÆÒÿÿÿÿÿ8åÀ“ª¢.
