@@ -1,8 +1,5 @@
 package dci.ed;
 
-
-import java.io.PrintStream;
-import java.util.Collections;
 import java.util.*;
 public class ListaEnlazadaUtils {
 
