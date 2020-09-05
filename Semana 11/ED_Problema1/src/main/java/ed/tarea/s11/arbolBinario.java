@@ -129,7 +129,7 @@ public class arbolBinario {
     }
 
     /**
-     *
+     * Comprueba que el árbol no este vacío y de no estarlo ejecuta el método de eliminacin recursiva´.
      * @param valor - Valor a eliminar.
      */
     public void eliminar(int valor) {
