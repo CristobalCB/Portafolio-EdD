@@ -1,7 +1,5 @@
 package bst;
 
-import javax.sound.midi.Soundbank;
-
 public class BST {
 
     // Raíz del BST
@@ -42,8 +40,8 @@ public class BST {
      *  Método público que llama al método privado para que este agregue un nodo con el valor dado.
      * @param value Valor a agregar.
      */
-    public void agregar(int value) {
-        root = agregarNodo(root,value);
+    public void insertar(int value) {
+        root = insertarNodo(root,value);
     }
 
     /**
@@ -53,14 +51,14 @@ public class BST {
      * @param valor Valor que tiene que agregar.
      * @return si el nodo es nulo, agrega uno con el valor, sino devuelve su mismo nodo (para no destruir el árbol)
      */
-    private Nodo agregarNodo(Nodo actual, int valor) {
+    private Nodo insertarNodo(Nodo actual, int valor) {
         if (actual == null){
             return new Nodo(valor);
         } else {
             if (valor < actual.valor) {
-                actual.leftChild = agregarNodo(actual.leftChild, valor);
+                actual.leftChild = insertarNodo(actual.leftChild, valor);
             } else {
-                actual.rightChild = agregarNodo(actual.rightChild, valor);
+                actual.rightChild = insertarNodo(actual.rightChild, valor);
             }
             return actual;
         }
@@ -68,7 +66,7 @@ public class BST {
 
     /**
      * Comprueba que el árbol no este vacío y de no estarlo ejecuta el método de eliminacin recursiva´.
-     * @param valor - Valor a eliminar.
+     * @param valor Valor a eliminar.
      */
     public void eliminar(int valor) {
         if (root == null){
@@ -84,10 +82,10 @@ public class BST {
      * de tener uno, lo asigna como su hijo, y de tener dos reemplaza el nodo usando el método reemplazarNodo().
      * @param actual Nodo en el que se trabaja.
      * @param valor Valor a eliminar.
-     * @return - El nodo con el que esta trabajando para no alterar el árbol.
+     * @return El nodo con el que esta trabajando para no alterar el árbol.
      */
     private Nodo eliminarNodo(Nodo actual, int valor) {
-        if (actual == null){
+        if (actual == null) {
             System.out.print("Valor no encontrado.");
         } else if (valor < actual.valor){
             Nodo izquierdo = eliminarNodo(actual.leftChild,valor);

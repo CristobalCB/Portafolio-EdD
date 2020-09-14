@@ -19,13 +19,13 @@ public class BSTTest {
     }
 
     @org.junit.Test
-    public void agregar() {
+    public void insertar() {
         BST arbolPrueba = new BST();
-        arbolPrueba.agregar(5);
-        arbolPrueba.agregar(3);
-        arbolPrueba.agregar(7);
-        arbolPrueba.agregar(8);
-        arbolPrueba.agregar(4);
+        arbolPrueba.insertar(5);
+        arbolPrueba.insertar(3);
+        arbolPrueba.insertar(7);
+        arbolPrueba.insertar(8);
+        arbolPrueba.insertar(4);
         assertEquals(arbolGeneradoAMano.root.valor,
                 arbolPrueba.root.valor);
         assertEquals(arbolGeneradoAMano.root.rightChild.valor,
